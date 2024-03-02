@@ -6,7 +6,12 @@
 
 This project helps on making a logo in a quick 4 steps. It is to help people be able to make and customize a desired logo for whatver their needs really quick.
 
-## Table of Contents (Optional)
+## Example output
+
+
+![alt text](./Images/Screenshot%202024-03-02%20000848.png)
+
+## Table of Contents
 
 
 - [Installation](#installation)
