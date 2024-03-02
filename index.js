@@ -30,10 +30,16 @@ const questions = [
 inquirer.prompt(questions)
 .then(data=>{
     if(data.shape === "circle"){
-
+        const circle = new Circle(data.text, data.textColor, data.shapeColor)
+        fs.writeFile("./examples/circle.svg", circle.render(), err => {
+            console.log("Success")
+        })
     }
-    else if(data === "triangle"){
-        const triangle
+    else if(data.shape === "triangle"){
+        const triangle = new Triangle(data.text, data.textColor, data.shapeColor)
+        fs.writeFile("./examples/triangle.svg", triangle.render(), err => {
+            console.log("Success")
+        })
     }
     else{
 
